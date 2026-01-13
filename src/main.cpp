@@ -33,8 +33,7 @@ void setup() {
 
     display.setCursor(10, 40);
     display.print("Hello");
-    display.setTextColor(GxEPD_BLACK);        // κόκκινο κείμενο για 3C e-paper displays
-    //display.setTextColor(GxEPD_RED);        // κόκκινο κείμενο για 3C e-paper displays
+    display.setTextColor(GxEPD_RED);        // κόκκινο κείμενο για 3C e-paper displays
     display.setCursor(10, 80);
     display.print("World");
   } while (display.nextPage());
